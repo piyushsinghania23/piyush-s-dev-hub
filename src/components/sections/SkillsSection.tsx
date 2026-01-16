@@ -5,39 +5,39 @@ import { Code, Database, Settings, Users, Cpu, Wrench } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Programming & Frontend",
+    title: "Programming Languages",
     icon: Code,
-    skills: ["HTML", "CSS", "JavaScript", "React", "Responsive Web Design"],
+    skills: ["Java", "C++", "C#", "SQL"],
     color: "from-blue-500 to-cyan-500",
   },
   {
-    title: "Software Engineering",
+    title: "Web Development",
     icon: Settings,
-    skills: ["Data Structures & Algorithms", "OOP", "SDLC", "Debugging", "Code Optimization"],
+    skills: ["HTML", "CSS", "Bootstrap", "JavaScript", "React.js", "Node.js"],
     color: "from-purple-500 to-pink-500",
   },
   {
-    title: "Systems & Core CS",
-    icon: Cpu,
-    skills: ["CPU Scheduling Algorithms", "Operating System Fundamentals", "Process Management"],
+    title: "Frameworks & Tools",
+    icon: Wrench,
+    skills: ["ASP.NET Core", "MVC", "Entity Framework", "SQL Server", "Visual Studio", "Git/GitHub", "Postman"],
     color: "from-orange-500 to-red-500",
   },
   {
-    title: "Backend & Data",
-    icon: Database,
-    skills: ["SQL", "Database Fundamentals", "Query Optimization"],
+    title: "AI & Cloud",
+    icon: Cpu,
+    skills: ["Gemini AI API", "REST APIs", "JSON"],
     color: "from-green-500 to-teal-500",
   },
   {
-    title: "Tools & Technologies",
-    icon: Wrench,
-    skills: ["Git", "GitHub", "VS Code", "Figma", "Terminal"],
+    title: "Concepts",
+    icon: Database,
+    skills: ["Data Structures & Algorithms", "OOP", "Code Quality & Best Practices", "Authentication/Authorization"],
     color: "from-indigo-500 to-purple-500",
   },
   {
-    title: "Soft Skills",
+    title: "Interpersonal Skills",
     icon: Users,
-    skills: ["Problem Solving", "Logical Thinking", "Team Collaboration", "Communication"],
+    skills: ["Leadership", "Team Collaboration", "Communication", "Decision-Making", "Multitasking"],
     color: "from-pink-500 to-rose-500",
   },
 ];
@@ -64,8 +64,8 @@ const SkillsSection = () => {
               Technical <span className="text-gradient">Expertise</span>
             </h2>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              A comprehensive skill set spanning frontend development, software engineering 
-              principles, and essential tools for building modern applications.
+              A comprehensive skill set spanning full-stack development, software engineering 
+              principles, and modern frameworks for building scalable applications.
             </p>
           </div>
 

@@ -43,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl lg:text-3xl font-semibold text-muted-foreground mb-6"
           >
-            Software Engineer | Frontend Developer
+            Software Developer | Full Stack Engineer
           </motion.h2>
 
           {/* Tagline */}
@@ -53,7 +53,8 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto"
           >
-            Designing, developing, and delivering scalable software solutions.
+            CSE Graduate with expertise in C++, ASP.NET Core, and MERN Stack. 
+            Building impactful software solutions with clean code and best practices.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -93,7 +94,7 @@ const HeroSection = () => {
             className="flex justify-center gap-4"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/piyushsinghania23"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
@@ -101,7 +102,7 @@ const HeroSection = () => {
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/piyush-kumar-996688217"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
@@ -109,7 +110,7 @@ const HeroSection = () => {
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="mailto:piyush@example.com"
+              href="mailto:piyushkumar4041@gmail.com"
               className="p-3 rounded-full bg-card shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
             >
               <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />

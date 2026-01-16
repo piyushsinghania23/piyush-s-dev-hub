@@ -1,22 +1,22 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Code Review System",
-    problem: "Development teams often struggle with inconsistent code review processes, leading to bugs and reduced code quality.",
-    approach: "Built a web-based platform enabling structured code submission, review workflows, and feedback management with version control integration.",
+    title: "AI-Powered Code Review System",
+    problem: "Development teams struggle with manual code reviews, leading to inconsistent feedback and missed bugs.",
+    approach: "Engineered an intelligent web application using the MERN stack integrated with Gemini AI to automate code reviews with real-time analysis.",
     features: [
-      "Structured feedback system",
-      "Version control support",
-      "Code diff visualization",
-      "Review status tracking",
+      "Real-time bug detection",
+      "Best-practice validation",
+      "AI-driven improvement suggestions",
+      "Role-based access control",
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "Git"],
-    github: "https://github.com",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Gemini AI"],
+    github: "https://github.com/piyushsinghania23",
     demo: null,
     gradient: "from-blue-500/20 to-cyan-500/20",
     accent: "text-blue-500",
@@ -24,22 +24,22 @@ const projects = [
   {
     title: "CPU Scheduling Simulator",
     problem: "Understanding CPU scheduling algorithms can be abstract without visual representation of process execution.",
-    approach: "Developed an interactive simulator implementing FCFS, SJF, Priority, and Round Robin algorithms with real-time visualization.",
+    approach: "Simulated CPU scheduling algorithms like FCFS, SJF, Round Robin with dynamic visualization and turnaround time calculation.",
     features: [
       "Algorithm comparison",
-      "Gantt chart visualization",
-      "Performance metrics analysis",
-      "Interactive process input",
+      "Dynamic queue visualization",
+      "Turnaround time calculation",
+      "Process execution demo",
     ],
-    technologies: ["JavaScript", "HTML", "CSS", "Algorithms"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    technologies: ["C++", "Algorithms", "Data Structures"],
+    github: "https://github.com/piyushsinghania23",
+    demo: null,
     gradient: "from-purple-500/20 to-pink-500/20",
     accent: "text-purple-500",
   },
   {
     title: "Portfolio Website",
-    problem: "Showcasing skills and projects professionally to potential employers and clients.",
+    problem: "Showcasing skills and projects professionally to potential employers and recruiters.",
     approach: "Designed and developed a modern, responsive portfolio with smooth animations and intuitive navigation.",
     features: [
       "Responsive design",
@@ -48,8 +48,8 @@ const projects = [
       "Contact integration",
     ],
     technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/piyushsinghania23",
+    demo: null,
     gradient: "from-green-500/20 to-teal-500/20",
     accent: "text-green-500",
   },

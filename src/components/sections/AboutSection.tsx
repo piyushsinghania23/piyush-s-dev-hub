@@ -12,7 +12,7 @@ const highlights = [
   {
     icon: Lightbulb,
     title: "Problem Solver",
-    description: "Analytical approach to challenges",
+    description: "120+ DSA problems on LeetCode",
   },
   {
     icon: Users,
@@ -60,23 +60,22 @@ const AboutSection = () => {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm an aspiring Software Engineer with a strong foundation in{" "}
-                <span className="text-foreground font-medium">Frontend Development</span> and 
-                core Software Engineering principles. My journey in tech is driven by 
-                a passion for creating solutions that are not just functional, but 
-                elegant and user-centric.
+                Computer Science Engineering graduate with a strong foundation in{" "}
+                <span className="text-foreground font-medium">C++, C#, ASP.NET Core</span>, and 
+                SQL Server. My journey in tech is driven by a passion for creating 
+                solutions that are not just functional, but elegant and scalable.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With hands-on experience in building responsive web applications and 
-                a solid understanding of{" "}
-                <span className="text-foreground font-medium">Data Structures & Algorithms</span>, 
-                I approach each project with a problem-solving mindset. I believe in 
-                writing clean, maintainable code that stands the test of time.
+                Completed multiple full-stack projects using{" "}
+                <span className="text-foreground font-medium">MERN Stack</span> and 
+                consistently improved problem-solving abilities through platforms 
+                like LeetCode with 120+ solved problems and earned a 5-Star C++ 
+                badge on HackerRank.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                As a fresher with strong project-based learning, I'm eager to 
-                contribute to innovative teams and grow as a developer while 
-                building reliable, efficient applications that make a difference.
+                Seeking an entry-level software development role in an MNC to 
+                apply my technical skills and contribute to impactful solutions 
+                while growing as a developer.
               </p>
             </motion.div>
 
