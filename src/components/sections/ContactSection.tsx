@@ -11,8 +11,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "piyush.kumar@email.com",
-    href: "mailto:piyush.kumar@email.com",
+    value: "piyushkumar4041@gmail.com",
+    href: "mailto:piyushkumar4041@gmail.com",
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+91 8340414278",
+    href: "tel:+918340414278",
   },
   {
     icon: MapPin,
@@ -26,13 +32,13 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
-    username: "@piyushkumar",
+    href: "https://github.com/piyushsinghania23",
+    username: "@piyushsinghania23",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/piyush-kumar-996688217",
     username: "Piyush Kumar",
   },
 ];
@@ -77,8 +83,8 @@ const ContactSection = () => {
               Let's Work <span className="text-gradient">Together</span>
             </h2>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              I'm currently looking for new opportunities. Whether you have a question
-              or just want to say hi, I'd love to hear from you!
+              I'm currently looking for entry-level software development opportunities. 
+              Whether you have a question or just want to say hi, I'd love to hear from you!
             </p>
           </div>
 
